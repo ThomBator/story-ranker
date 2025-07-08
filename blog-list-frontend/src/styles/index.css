@@ -115,8 +115,8 @@ button:hover {
 
 .pageContainer {
   margin: auto;
+  flex: 1;
   padding: 1rem;
-  width: 80%;
-  min-height: 90vh;
   position: relative;
+  width: 80%;
 }

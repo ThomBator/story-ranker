@@ -33,7 +33,7 @@ const SignUpForm = () => {
         notifyWith("Sign Up Successful", "green");
       } catch (error) {
         notifyWith(
-          "A user already exists with your inputted username, please try again",
+          "This username is taken, please try again",
           "red"
         );
       }

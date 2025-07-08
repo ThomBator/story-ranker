@@ -16,7 +16,7 @@ const Home = () => {
   const blogFormRef = useRef();
 
   if (result.isLoading) {
-    return <div>loading.data</div>;
+    return <div className="pageContainer">loading.data</div>;
   }
 
   const blogs = result.data;
@@ -67,7 +67,7 @@ const Home = () => {
         </div>
       )}
 
-      <main>
+      <main className="styles.blogList">
         {blogs &&
           blogs.sort(byVotes).map((blog) => (
             <div className={styles.listItem} key={blog.id}>

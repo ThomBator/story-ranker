@@ -17,7 +17,7 @@ const Users = () => {
     <div className="pageContainer">
       <table className={styles.tableStyles}>
         <thead>
-          <th>Name</th>
+          <th>Username</th>
           <th>Blogs Created</th>
         </thead>
         <tbody>
